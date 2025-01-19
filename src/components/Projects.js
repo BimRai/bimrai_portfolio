@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import projectOne from "../assets/project_1.png";
+import projectOne from "../assets/projectOne.png";
 import projectTwo from "../assets/projectTwo.jpg";
 import projectThree from "../assets/projectThree.jpg";
 

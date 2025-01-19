@@ -1,7 +1,8 @@
 import React from "react";
-import projectOne from "../assets/project_1.png";
+import projectOne from "../assets/projectOne.png";
 import projectTwo from "../assets/projectTwo.jpg";
 import projectThree from "../assets/projectThree.jpg";
+import projectFour from "../assets/projectFour.png";
 
 const AllProjects = () => {
   const projectData = [
@@ -25,6 +26,13 @@ const AllProjects = () => {
       description: "Landing Page For Logistics Company",
       imageUrl: projectThree,
       link: "https://bimrai.github.io/BoxUpLogistics_landing_page/",
+    },
+    {
+      id: 4,
+      title: "Classic Snakes Game",
+      description: "Project Workshop FreeCodeCamp",
+      imageUrl: projectFour,
+      link: "https://bimrai.github.io/snake_game_project/",
     },
   ];
 
