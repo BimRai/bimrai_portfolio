@@ -27,6 +27,10 @@ const Skills = () => {
             <li>Bootstrap</li>
             <li>Git</li>
             <li>Netlify</li>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Sony Vegas Pro</li>
+            <li>FL Studio</li>
           </ul>
         </div>
 
