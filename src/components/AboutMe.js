@@ -8,7 +8,7 @@ const AboutMe = () => {
         
         <div className="about-item">
           <h4>Education:</h4>
-          <p>Currently, I am studying Computer Science in my first year at the University of London.</p>
+          <p>Currently, I am studying BSc (Hons) in Computer Science in my first year at the University of London.</p>
         </div>
         
         <div className="about-item">
