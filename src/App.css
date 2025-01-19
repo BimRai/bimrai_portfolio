@@ -308,10 +308,10 @@
 .skills-list li {
   font-size: 1rem;
   padding: 8px 15px;
-  background: #ffffff; /* White badge background */
-  border: 1px solid #ddd; /* Light border for definition */
-  border-radius: 20px; /* Rounded badge */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  background: #ffffff; 
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
   color: #333;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -319,9 +319,10 @@
 
 /* Hover Effect */
 .skills-list li:hover {
-  background: #f1f1f1; /* Slightly darker on hover */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  background: rgba(4, 104, 255, 0.712);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  color: white;
 }
 
 /* Responsive Styling */
