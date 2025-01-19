@@ -9,6 +9,7 @@ const Navbar = ({
 }) => {
   return (
     <nav className="navbar">
+      <h1 className="logo">bimrai</h1> {/* Add the logo here */}
       <div className="navbar-center">
         <ul className="nav-links">
           <li>

@@ -1,11 +1,32 @@
-
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #333333;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
+}
+
+.logo {
+  position: absolute; 
+  left: 1rem; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-center .nav-links {
@@ -15,18 +36,24 @@
   padding: 0;
 }
 
+
 .navbar-center .nav-links li {
   margin-right: 1rem;
 }
 
-.navbar-center .nav-links a {
+
+.navbar-center .nav-links .nav-button {
+  background: none;
+  border: none;
   color: #fff;
-  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s;
 }
 
-.navbar-right {
-  display: flex;
-  align-items: center;
+.navbar-center .nav-links .nav-button:hover {
+  color: #a7a7a7;
 }
 
 .hero {

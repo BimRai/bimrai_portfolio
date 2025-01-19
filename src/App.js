@@ -11,14 +11,16 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
+  // Creating refs for each section
   const homeRef = useRef(null);
   const projectsRef = useRef(null);
   const skillsRef = useRef(null);
   const aboutMeRef = useRef(null);
   const contactRef = useRef(null);
 
+  // Scroll function to scroll to a given ref and center the section in the viewport
   const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" });
+    ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
   };
 
   return (
@@ -30,13 +32,16 @@ function App() {
             <div className="App">
               <Navbar
                 onScrollToHome={() => scrollToSection(homeRef)}
-                onScrollToProjects={() => scrollToSection(projectsRef)}
+                onScrollToProjects={() => scrollToSection(projectsRef)}  // Pass scroll to projects
                 onScrollToSkills={() => scrollToSection(skillsRef)}
                 onScrollToAboutMe={() => scrollToSection(aboutMeRef)}
-                onScrollToContact={() => scrollToSection(contactRef)}
+                onScrollToContact={() => scrollToSection(contactRef)}  // Pass scroll to contact
               />
               <div ref={homeRef}>
-                <Hero onScrollToContact={() => scrollToSection(contactRef)} />
+                <Hero
+                  onScrollToProjects={() => scrollToSection(projectsRef)}  // Pass scroll to projects
+                  onScrollToContact={() => scrollToSection(contactRef)}  // Pass scroll to contact
+                />
               </div>
               <div ref={aboutMeRef}>
                 <AboutMe />
