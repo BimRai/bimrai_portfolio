@@ -40,7 +40,6 @@ const AllProjects = () => {
     
     <section className="all-projects-section bg-gray-100 min-h-screen">
       <div className="all-projects-container max-w-5xl mx-auto p-6">
-        <h2 className="text-4xl font-bold text-center mb-8">All Projects</h2>
         <div className="projects-list flex flex-col gap-6">
           {projectData.map((project) => (
             <a
